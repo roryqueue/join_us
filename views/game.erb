@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link href="app.css" rel="stylesheet">
+  <link href="min.css" rel="stylesheet">
+
+</head>
+
+<body class="all">
+
+<button class="smooth btn-neg" id="start-button">Join us</button>
+
+
+  <div class="row">
+
+    <column class="c3" id="button-column">
+      <div class="row button-container" id="recruit" >
+        <div class="c4">
+          <button class="smooth btn-pos btn-small" id="recruit-button">recruit</button>
+        </div>
+        <div class="c6" class="progress-bar" id="pb-pos">o</div><br><br>
+      </div>
+
+      <div class="row button-container" id="pray" >
+        <div class="c4">
+          <button class="smooth btn-gen btn-small" id="pray-button">pray</button>
+        </div>
+        <div class="c6" class="progress-bar" id="pb-gen">o</div><br><br>
+      </div>
+
+      <div class="row button-container" id="sacrifice" >
+        <div class="c4">
+          <button class="smooth btn-neg btn-small" id="sacrifice-button">sacrifice</button>
+        </div>
+        <div class="c6" class="progress-bar" id="pb-neg">o</div><br><br>
+      </div>
+
+    </column>
+
+
+    <column class="c4" id="table-column">
+      <table class="table" id="recruits-table">
+        <thead>
+          <tr>
+            <th>Follower</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> </td>
+            <td> </td>
+        </tbody>
+      </table>
+
+    </column>
+
+
+    <column class="c3" id="message-column">
+
+      <div class="message-gen" id="follower-message">
+        <message>
+          You have gained a follower.
+        </message><br>
+      </div>
+
+      <div class="message-neg" id="demand-message">
+        <message class="warning">
+          The Lord demands sacrifice.
+        </message><br>
+      </div>
+
+      <div class="message-neg" id="sacrifice-message">
+        <message class="warning">
+          A follower has passed.
+        </message><br>
+      </div>
+
+      <div class="message-pos" id="success-message">
+        <message class="great">
+          The Lord is pleased.
+        </message><br>
+      </div>
+
+    </column>
+  </div>
+
+
+  <script type="text/javascript" src="jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+
+
+</body>

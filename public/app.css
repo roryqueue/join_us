@@ -26,6 +26,7 @@
 
 .join > a {
   text-decoration: none;
+  color: #810808;
 }
 
 .join > a:visited {
@@ -35,3 +36,44 @@
 .join > a:hover {
   color: #444455;
 }
+
+.button-container > div {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.progress-bar {
+    width: 0;
+    background: #999;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+}
+
+#pb-gen {
+    width: 0;
+    background: #ACE;
+    color: #ACE;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#pb-pos {
+    width: 0;
+    background: #9D9;
+    color: #9D9;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#pb-neg {
+    width: 0;
+    background: #D99;
+    color: #D99;
+    text-align: center;
+    overflow: hidden;
+}
+

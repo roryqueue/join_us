@@ -22,3 +22,7 @@ get '/' do
   @images = get_images
   erb :join
 end
+
+get '/game' do
+  erb :game
+end
