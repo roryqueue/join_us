@@ -12,14 +12,14 @@ $('#recruit-button').click(function() {
     startProgressBar('#pb-pos', 1);
   $('#recruits-table > tbody:last').append("<tr><td class='follower-name'>" + lightFollowers.pop() + "</td><td class='follower-status'>Faithful</td></tr>");
   $('#follower-message').fadeIn(500).delay(3000).fadeOut(500);
-  $('#demand-message').delay(1500).fadeIn(500).delay(3000).fadeOut(500);
+  $('#demand-message').delay(1000).fadeIn(500).delay(3000).fadeOut(500);
 });
 
 $('#sacrifice-button').click(function() {
     startProgressBar('#pb-neg', 1);
   $('.follower-status').text('Deceased');
   $('#sacrifice-message').fadeIn(500).delay(3000).fadeOut(500);
-  $('#success-message').delay(1500).fadeIn(500).delay(3000).fadeOut(500);
+  $('#success-message').delay(1000).fadeIn(500).delay(3000).fadeOut(500);
 });
 
 $('#pray-button').click(function() {
