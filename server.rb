@@ -1,8 +1,6 @@
 require 'sinatra'
 require 'pry'
 
-
-
 def get_images
   files = []
   images = []
@@ -14,9 +12,6 @@ def get_images
   end
   images.shuffle!
 end
-
-# binding.pry
-
 
 get '/' do
   @images = get_images

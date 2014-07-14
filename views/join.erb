@@ -1,20 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 <head>
- <link href="app.css" rel="stylesheet">
+ <link href="css/app.css" rel="stylesheet">
 </head>
-
-
 
 <body class="all">
 
-<p class="join"><a href="/game">Join us</a></p>
+  <p class="join"><a href="/game">Join us</a></p>
 
-
-    <ul class="pic-row">
+  <ul class="pic-row">
     <% 80.times do %>
-      <li><img src=<%="/images/#{@images.pop}"%> class="pic" alt="pic" height="180" width="180"></li>
-      <%end%>
-    </ul>
+      <li><img src=<%="assets/images/#{@images.pop}"%> class="pic" alt="pic" height="180" width="180"></li>
+    <%end%>
+  </ul>
 
 </body>
